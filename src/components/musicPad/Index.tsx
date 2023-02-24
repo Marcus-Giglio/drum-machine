@@ -1,5 +1,5 @@
 import useEventListener from '@use-it/event-listener';
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 type Iprops = {
   power: boolean;

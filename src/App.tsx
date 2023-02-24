@@ -46,11 +46,7 @@ function App() {
                     volume={volume}
                     name={bank ? '1' : 'q'}
                     padBtn={bank ? 'Abba 1' : 'Heater 1'}
-                    audio={
-                      bank
-                        ? 'src/assets/audio/1.mp3'
-                        : 'src/assets/audio/Heater-1.mp3'
-                    }
+                    audio={bank ? '/audio/1.mp3' : '/audio/Heater-1.mp3'}
                     setDisplay={setDisplay}
                   />
                   <MusicPad
@@ -58,11 +54,7 @@ function App() {
                     volume={volume}
                     name={bank ? '2' : 'w'}
                     padBtn={bank ? 'Abba 2' : 'Heater 2'}
-                    audio={
-                      bank
-                        ? 'src/assets/audio/2.mp3'
-                        : 'src/assets/audio/Heater-2.mp3'
-                    }
+                    audio={bank ? '/audio/2.mp3' : '/audio/Heater-2.mp3'}
                     setDisplay={setDisplay}
                   />
                   <MusicPad
@@ -70,11 +62,7 @@ function App() {
                     volume={volume}
                     name={bank ? '3' : 'e'}
                     padBtn={bank ? 'Abba 3' : 'Heater 3'}
-                    audio={
-                      bank
-                        ? 'src/assets/audio/3.mp3'
-                        : 'src/assets/audio/Heater-3.mp3'
-                    }
+                    audio={bank ? '/audio/3.mp3' : '/audio/Heater-3.mp3'}
                     setDisplay={setDisplay}
                   />
                 </div>
@@ -84,11 +72,7 @@ function App() {
                     volume={volume}
                     name={bank ? '4' : 'a'}
                     padBtn={bank ? 'Abba 4' : 'Heater 4'}
-                    audio={
-                      bank
-                        ? 'src/assets/audio/4.mp3'
-                        : 'src/assets/audio/Heater-4_1.mp3'
-                    }
+                    audio={bank ? '/audio/4.mp3' : '/audio/Heater-4_1.mp3'}
                     setDisplay={setDisplay}
                   />
                   <MusicPad
@@ -96,11 +80,7 @@ function App() {
                     volume={volume}
                     name={bank ? '5' : 's'}
                     padBtn={bank ? 'Abba 5' : 'Clap'}
-                    audio={
-                      bank
-                        ? 'src/assets/audio/5.mp3'
-                        : 'src/assets/audio/Heater-6.mp3'
-                    }
+                    audio={bank ? '/audio/5.mp3' : '/audio/Heater-6.mp3'}
                     setDisplay={setDisplay}
                   />
                   <MusicPad
@@ -108,11 +88,7 @@ function App() {
                     volume={volume}
                     name={bank ? '6' : 'd'}
                     padBtn={bank ? 'Abba 6' : 'Open HH'}
-                    audio={
-                      bank
-                        ? 'src/assets/audio/6.mp3'
-                        : 'src/assets/audio/Dsc_Oh.mp3'
-                    }
+                    audio={bank ? '/audio/6.mp3' : '/audio/Dsc_Oh.mp3'}
                     setDisplay={setDisplay}
                   />
                 </div>
@@ -122,11 +98,7 @@ function App() {
                     volume={volume}
                     name={bank ? '7' : 'z'}
                     padBtn={bank ? 'Abba 7' : "Kick n' Hat"}
-                    audio={
-                      bank
-                        ? 'src/assets/audio/7.mp3'
-                        : 'src/assets/audio/Kick_n_Hat.mp3'
-                    }
+                    audio={bank ? '/audio/7.mp3' : '/audio/Kick_n_Hat.mp3'}
                     setDisplay={setDisplay}
                   />
                   <MusicPad
@@ -134,11 +106,7 @@ function App() {
                     volume={volume}
                     name={bank ? '8' : 'x'}
                     padBtn={bank ? 'Abba 8' : 'Kick'}
-                    audio={
-                      bank
-                        ? 'src/assets/audio/8.mp3'
-                        : 'src/assets/audio/RP4_KICK_1.mp3'
-                    }
+                    audio={bank ? '/audio/8.mp3' : '/audio/RP4_KICK_1.mp3'}
                     setDisplay={setDisplay}
                   />
                   <MusicPad
@@ -146,11 +114,7 @@ function App() {
                     volume={volume}
                     name={bank ? '9' : 'c'}
                     padBtn={bank ? 'Abba 9' : 'Closed HH'}
-                    audio={
-                      bank
-                        ? 'src/assets/audio/9.mp3'
-                        : 'src/assets/audio/Cev_H2.mp3'
-                    }
+                    audio={bank ? '/audio/9.mp3' : '/audio/Cev_H2.mp3'}
                     setDisplay={setDisplay}
                   />
                 </div>
